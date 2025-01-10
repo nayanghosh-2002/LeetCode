@@ -1,5 +1,6 @@
 class Solution {
 public:
+// nayan ghosh
     vector<string> wordSubsets(vector<string>& words1, vector<string>& words2) {
          int maxCount[26] = {0}; // To store the maximum frequency of each character needed
 
