@@ -2,26 +2,6 @@ class Solution {
 public:
     int M = 1e9 + 7;
 
-     // code of memorization :->
-
-
-     
-
-
-    // int rc(int n, int x, vector<int>& v, vector<vector<int>>& dp) {
-    //     if (x == 0)
-    //         return 1;
-    //     if (n < 0 || x < 0)
-    //         return 0;
-
-    //     if (dp[n][x] != -1)
-    //         return dp[n][x];
-
-    //     int sm = 0;
-    //     sm = (sm + rc(n - 1, x, v, dp)) % M;
-    //     sm = (sm + rc(n - 1, x - v[n], v, dp)) % M;
-    //     return dp[n][x] = sm;
-    // }
 
     int numberOfWays(int x, int p) {
 
